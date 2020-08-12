@@ -20,7 +20,7 @@ const useStyles = makeStyles({
 		width: 250,
 	},
 	media: {
-		height: 300,
+		height: 400,
 	},
 });
 

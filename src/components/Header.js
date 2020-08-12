@@ -91,7 +91,6 @@ export default function Header({ passResults }) {
 			const response = await request;
 			passResults(response.data.results);
 		} catch (e) {
-			console.log(e.response);
 			passResults([]);
 		}
 	};
